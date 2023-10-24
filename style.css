@@ -1,0 +1,93 @@
+.container{
+ width:60%;
+ margin:auto;
+ align-items: center;
+ margin-top:60px;
+ padding:70px;
+ background-color: lightcyan;
+ border: 3px solid #319797e6;
+ transition: transform 0.3s ease-in-out;
+}
+.container:hover {
+    transform: scale(1.01);
+  }
+.container h1 {
+    text-align: center;
+}
+.form {
+    margin: 25px auto;
+}
+
+#InputTask{
+    display:inline;
+    width:80%;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    border-radius:5px 0 0 5px;
+    margin-bottom:0;
+    line-height:2;
+    padding: 4px 10px 4px 40px;   
+    font-size: 1.05rem;
+    color: #000000;
+    background: url(https://cdn-icons-png.flaticon.com/128/2921/2921185.png) no-repeat 8px center;
+    background-size: 30px;
+    background-color: #efefef;
+}
+.form img{
+    width:27px;
+    height:19px;
+    
+}
+#addbutton{
+    margin-left: -4px;
+    padding: 7px 5px 6px;
+    border-radius: 0 5px 5px 0;
+    line-height: 2;
+    
+}
+.comp{
+    justify-content: space-between;
+    display: flex;
+    margin:15px;
+    font-size: larger;
+}
+.complete img{
+    width: 25px;
+    padding: 0 5px;
+}
+
+#right img {
+    width:25px;
+    height:25px;
+    padding-top: 3px;
+}
+
+#left img {
+    width:25px;
+    height:25px;
+    padding-top: 3px;
+}
+#listedtasks li {
+    overflow:hidden;
+    /* text-overflow: ellipsis;
+    white-space: nowrap; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:xx-large;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #efefef;
+}
+
+#listedtasks li button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+}
